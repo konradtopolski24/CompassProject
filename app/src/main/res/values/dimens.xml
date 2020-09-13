@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wt_zero">0dp</dimen>
+    <dimen name="wt_image">280dp</dimen>
+    <dimen name="wt_launcher">108dp</dimen>
+    <dimen name="mg_default">10dp</dimen>
+
+    <dimen name="tx_default">14sp</dimen>
+    <dimen name="tx_small">12sp</dimen>
+</resources>

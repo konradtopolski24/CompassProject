@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_margin">@dimen/mg_default</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextViewBig" parent="TextView">
+        <item name="android:textSize">@dimen/tx_default</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewSmall" parent="TextView">
+        <item name="android:textSize">@dimen/tx_small</item>
+    </style>
+
+    <style name="EditTextDecimal">
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:digits">0123456789.</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+</resources>

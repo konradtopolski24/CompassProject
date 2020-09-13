@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MainActivity">
+
+    <TextView
+        android:id="@+id/tvDestination"
+        style="@style/TextViewBig"
+        android:layout_width="@dimen/wt_zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDestinationLat"
+        style="@style/TextViewSmall"
+        android:layout_width="@dimen/wt_zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/ivCompass"
+        app:layout_constraintEnd_toStartOf="@+id/tvDestinationLong"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDestination" />
+
+    <TextView
+        android:id="@+id/tvDestinationLong"
+        style="@style/TextViewSmall"
+        android:layout_width="@dimen/wt_zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/ivCompass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tvDestinationLat"
+        app:layout_constraintTop_toBottomOf="@+id/tvDestination" />
+
+    <ImageView
+        android:id="@+id/ivCompass"
+        android:layout_width="@dimen/wt_image"
+        android:layout_height="@dimen/wt_image"
+        android:layout_margin="@dimen/mg_default"
+        android:contentDescription="@string/dp_compass"
+        android:src="@drawable/img_compass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivArrow"
+        android:layout_width="@dimen/wt_image"
+        android:layout_height="@dimen/wt_image"
+        android:layout_margin="@dimen/mg_default"
+        android:contentDescription="@string/dp_arrow"
+        android:src="@drawable/img_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCurrent"
+        style="@style/TextViewBig"
+        android:layout_width="@dimen/wt_zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCompass" />
+
+    <TextView
+        android:id="@+id/tvCurrentLat"
+        style="@style/TextViewSmall"
+        android:layout_width="@dimen/wt_zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvCurrentLong"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCurrent" />
+
+    <TextView
+        android:id="@+id/tvCurrentLong"
+        style="@style/TextViewSmall"
+        android:layout_width="@dimen/wt_zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tvCurrentLat"
+        app:layout_constraintTop_toBottomOf="@+id/tvCurrent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

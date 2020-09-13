@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Compass Project</string>
+    <string name="tv_current">Currently</string>
+    <string name="tv_destination">Destination</string>
+    <string name="et_latitude">Destination latitude (-90 to 90)</string>
+    <string name="et_longitude">Destination longitude (-180 to 180)</string>
+    <string name="bt_coordinates">Set coordinates</string>
+    <string name="bt_save">Save</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_values">Entered coordinate values have been saved!</string>
+    <string name="bt_reset">Coordinate values have been reset!</string>
+    <string name="dp_compass">Compass graphic</string>
+    <string name="dp_arrow">Arrow graphic</string>
+    <string name="er_address">Address unavailable</string>
+    <string name="er_coordinates">Coordinates unavailable</string>
+    <string name="er_current">Cannot find current location</string>
+    <string name="er_destination">Cannot find destination location</string>
+    <string name="er_values">At least one of the values is incorrect! Coordinates cannot be saved!</string>
+</resources>
